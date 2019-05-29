@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CommunityClassComp from './Components/CommunityClassComp';
+import InfoBarComp from './InfoBarComp';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<CommunityClassComp />, div);
+  ReactDOM.render(<InfoBarComp />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
-
-

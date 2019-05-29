@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import LogoComp from './LogoComp';
+import PlantComp from './PlantComp';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<LogoComp />, div);
+  ReactDOM.render(<PlantComp />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
+

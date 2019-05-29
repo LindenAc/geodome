@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import MainPageComp from './MainPageComp';
+import MainPageComp from './Components/MainPageComp';
 
 class App extends Component {
   constructor() {

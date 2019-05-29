@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AccountsComp from './Components/AccountsComp';
+import MainPageComp from './MainPageComp';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<AccountsComp />, div);
+  ReactDOM.render(<MainPageComp />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
+
+
