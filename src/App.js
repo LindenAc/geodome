@@ -12,16 +12,17 @@ class App extends Component {
     return (
       <div className="App">
         <h1> Capital Hill - Geodome Project </h1>
-
-        <header className="App-header">
+    
+       <header className="App-header">
           <MainPageComp />
         </header>
-       
-        <p>
-        Be Green. Grow Tall.
-        </p>
-
+        <div className = 'pageBottom'>
+            <b style = {{ color:"green" }}>
+            Be Green. Grow Tall.
+            </b>
+        </div>
       </div>
+      
     );
   }
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import geodome from './GeodomeLogo.svg';
+import geodome from './GeodomeLogo.png';
 import CommunityClassComp from './Components/CommunityClassComp';
 import './App.css';
 
@@ -20,7 +20,7 @@ class LogoComponent extends Component {
         return (
             <div>
                 <div className="App">
-                    <img src={geodome} className="App-otherlogos" alt="" onClick={this.clicked} /> 
+                    <img src = { geodome } className="App-otherlogos" alt="" onClick={this.clicked} /> 
                 </div>
 
                 { this.state.showCityCommunity ? <CommunityClassComp /> :null }

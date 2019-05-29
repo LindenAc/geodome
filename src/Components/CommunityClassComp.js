@@ -87,10 +87,10 @@ class Community extends Component {
 
           <div className="App">
 
-          <div className = "minmax">
-            <h6> The total number of plants in the Geodome is: { this.state.totalAllPop } </h6> 
-            <h6> The tallest plant in the Geodome belongs to Grade: { this.state.mostNorthern } </h6>  
-          </div>
+          {/* <div className = "minmax">
+            <h4> The total number of plants in the Geodome is: { this.state.totalAllPop } </h4> 
+            <h4> The tallest plant in the Geodome belongs to Grade: { this.state.mostNorthern } </h4>  
+          </div> */}
 
             <h2> ~ Geodesic Dome Tracking ~ </h2>
             <h3> ~ Add your garden to the Dome ~ </h3>

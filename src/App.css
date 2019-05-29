@@ -8,21 +8,28 @@
   pointer-events: none;
 }
 
+.pageBottom {
+  background: url('binBackGround.jpg');
+  background-size: 450px;
+  min-height: 20vh;
+}
+
 .App-otherlogos {
-  animation: App-otherlogos-spin infinite 5s linear;
+  /* animation: App-otherlogos-spin infinite 5s linear; */
   position: relative;
   top: 0;
-  height: 15vmin;
+  height: 10vmin;
   pointer-events: fill;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #72c940;
+  background-size: 400px;
   min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -51,12 +58,21 @@
 
 .Carddesign {
   color: #61dafb;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 20px;
   border: 5px solid;
   border-color: white;
+  margin: 10px;
 }
 
 .NodeDesign {
   color: #7bfb61;
   border: 10px solid;
   border-color: rgb(34, 27, 27);
+}
+
+.card {
+  display: flex;
+  justify-content: flex-start;
 }
